@@ -1,0 +1,65 @@
+#h {
+    animation: 6s infinite fadein;
+  }
+
+#i {
+    animation: 6s infinite fadein;
+    animation-delay: 2s;
+  }
+
+#j {
+    animation: 6s infinite fadein;
+    animation-delay: 4s;
+  }
+
+
+
+  @keyframes fadein {
+        0% {
+            opacity: 20%;
+        }
+        50% {
+            opacity: 100%;
+        }
+        100% {
+            opacity: 20%;
+        }
+       }    
+
+       
+#d {
+    animation: 12s infinite alternate bounce;
+    animation-delay: 3s;
+  }
+
+  @keyframes bounce {
+    0% { 
+        transform: translate(0, 0); }
+
+    10% { 
+        transform: translate(0, 0); }
+
+    90% {
+        transform: translate(200px, 0); }
+    
+    100% {
+        transform: translate(200px, 0); 
+    }}
+
+#e {
+    animation: 12s infinite alternate rbounce;
+    }
+
+@keyframes rbounce {
+        0% { 
+            transform: translate(0, 0); }
+    
+        20% { 
+            transform: translate(0, 0); }
+    
+        80% {
+            transform: translate(-100px, 0); }
+        
+        100% {
+            transform: translate(-100px, 0); 
+        }}
